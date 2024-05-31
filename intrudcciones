@@ -1,0 +1,20 @@
+PRACTICA 
+
+Crear un servidor http usando express que cuente con el siguiente endpoint
+
+POST /koders
+y que reciba unobjeto de la siguiente forma:
+
+{
+  firstName: "Charles",
+  lastName: "Silva",
+  email: "charles@kodemia.mx",
+  birthDate: new Date("1995-11-11"),
+  generation: 33,
+}
+
+
+Requerimientos:
+- express
+- mongo y mongoose
+- dotenv
